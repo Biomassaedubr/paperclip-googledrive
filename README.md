@@ -1,20 +1,21 @@
 # PaperclipGoogledrive
-[![Gem Version](https://badge.fury.io/rb/paperclip-googledrive.png)](http://badge.fury.io/rb/paperclip-googledrive)
-[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/evinsou/paperclip-googledrive)
+[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/sman591/paperclip-googledrive)
 
 PaperclipGoogledrive is a gem that extends paperclip storage for Google Drive. Works with Rails 3.x.
+
+**Fork of [evinsou/paperclip-googledrive](https://github.com/evinsou/paperclip-googledrive). Added support for the latest dependencies & improved deletion and url support.**
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'paperclip-googledrive'
+    gem 'paperclip-googledrive', :git => 'git://github.com/sman591/paperclip-googledrive/'
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
+~~Or install it yourself as:~~ ***does not pull from this fork***
 
     $ gem install paperclip-googledrive
 
